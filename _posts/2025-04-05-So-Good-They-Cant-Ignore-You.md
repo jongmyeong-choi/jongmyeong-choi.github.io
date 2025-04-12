@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "《열정의 배신》을 읽고"
+subtitle: ‘좋아하는 일’이 아니라 ‘잘하게 된 일’
 date: 2025-04-05 00:00:00 +0900
-categories: book-review
+category: books
+published: true
 tags: [열정, 장인, 연습, 실력]
 ---
 
