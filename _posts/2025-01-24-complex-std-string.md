@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "C++ 실행 파일에서 본 std::string 의 복잡성"
-subtitle: "다른 컨테이너들은 간단한데, 왜 std::string 은 이렇게 복잡할까?"
-date: 2025-01-24 17:48:13 -0400
-background: '/img/posts/2025-01-18-01.jpeg'
+title: "Complex std::string"
+subtitle: "std::string의 복잡한 내부 구조와 동작 방식"
+date: 2025-01-24 23:45:13 -0400
+background: '/img/posts/2025-01-24-01.jpeg'
 published: true
+category: tech
 ---
 
 ### C++ 실행 파일에서 본 `std::string`의 복잡성

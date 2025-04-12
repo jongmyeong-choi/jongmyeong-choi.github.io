@@ -3,3 +3,32 @@
 ---
 
 @import "styles";
+
+// Code block styling
+pre {
+  background-color: #f0f2f5;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+  
+  code {
+    font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+}
+
+// Syntax highlighting colors
+.highlight {
+  .c { color: #6a9955; } // Comment
+  .k { color: #0066cc; } // Keyword
+  .n { color: #0066cc; } // Name
+  .o { color: #333333; } // Operator
+  .p { color: #333333; } // Punctuation
+  .s { color: #d14; } // String
+  .mi { color: #008080; } // Number
+  .nb { color: #0066cc; } // Built-in
+  .nc { color: #008080; } // Class name
+  .nf { color: #0066cc; } // Function name
+}
