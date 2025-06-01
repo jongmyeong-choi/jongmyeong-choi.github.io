@@ -3,9 +3,9 @@ layout: post
 title: "히치하이커: 부동산 분석 도구 개발기"
 subtitle: 가벼운 서브 프로젝트가 지금에 이르기까지
 date: 2025-06-01 00:00:00 +0900
-category: tech
+categories: [tech]
 published: true
-tags: [부동산, 개발, 히치하이커, 자동화]
+tags: [부동산, 개발, 히치하이커, 자동화, 프로젝트]
 ---
 
 #### 시작은 단순했다
