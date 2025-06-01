@@ -13,10 +13,15 @@ pre {
   margin: 1rem 0;
   
   code {
-    font-family: 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', monospace;
+    font-family: 'Fira Code', 'D2 Coding', 'Noto Sans Mono CJK KR', 'Consolas', 'Monaco', 'Andale Mono', monospace;
     font-size: 0.9em;
     line-height: 1.5;
   }
+}
+
+// 인라인 코드도 한글 지원
+code {
+  font-family: 'Fira Code', 'D2 Coding', 'Noto Sans Mono CJK KR', 'Consolas', 'Monaco', 'Andale Mono', monospace !important;
 }
 
 // Syntax highlighting colors

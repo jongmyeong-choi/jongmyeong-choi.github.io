@@ -1,2 +1,91 @@
+// Google Fonts - 한글 지원 폰트
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@400;500;700&display=swap');
+
 // Import Core Clean Blog SCSS
 @import "../assets/vendor/startbootstrap-clean-blog/scss/styles.scss";
+
+// 한글 가독성을 위한 폰트 재정의
+body {
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", 
+               Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  line-height: 1.7; // 한글 가독성을 위해 줄간격 조정
+  font-size: 16px !important; // about 페이지와 동일한 기본 크기
+}
+
+// 헤딩 폰트 설정
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", 
+               Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 500;
+}
+
+// 블로그 포스트 제목
+.post-title, .page-heading {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: 700;
+}
+
+// 페이지 헤딩과 서브헤딩에 italic 적용
+.page-heading h1, .post-heading h1 {
+  font-style: italic !important;
+}
+
+.subheading {
+  font-style: italic !important;
+}
+
+// 본문 텍스트 최적화 - about 페이지와 동일한 스타일
+.post-content, .post-preview p, article p, .container p {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: -0.02em; // 한글에 적합한 자간 조정
+  margin-bottom: 1.5rem;
+  font-size: 16px !important; // about 페이지와 동일한 크기
+}
+
+// 네비게이션 폰트
+.navbar-nav .nav-link {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: 500;
+}
+
+// 전역 문단 스타일 (about 페이지와 동일)
+p {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 16px !important; // 기본 크기로 통일
+}
+
+// 섹션 헤딩 스타일
+section h3 {
+  color: #495057;
+  font-weight: 600;
+}
+
+// 포스트 미리보기 글자 크기 조정
+.post-preview {
+  h2.post-title {
+    font-size: 1.5rem !important; // 제목 크기 줄임
+  }
+  
+  h3.post-subtitle {
+    font-size: 1.1rem !important; // 부제목 크기 줄임
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+}
+
+// 포스트 페이지 글자 크기
+.post-content {
+  font-size: 16px !important;
+  
+  h1 { font-size: 1.8rem !important; }
+  h2 { font-size: 1.6rem !important; }
+  h3 { font-size: 1.4rem !important; }
+  h4 { font-size: 1.2rem !important; }
+  h5 { font-size: 1.1rem !important; }
+  h6 { font-size: 1rem !important; }
+}
