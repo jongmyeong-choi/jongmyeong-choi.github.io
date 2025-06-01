@@ -13,7 +13,9 @@ instagram_username:
 linkedin_username: cheese-choi
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# google_analytics:   UA-XXXXXXXXX-X # Replace with your actual Google Analytics ID
+# For Google Analytics 4, use format: G-XXXXXXXXXX
+google_analytics:   G-9HS0BJRSCT # Enter your Google Analytics 4 ID (G-XXXXXXXXXX) or Universal Analytics ID (UA-XXXXXXXXX-X)
 
 # Build settings
 markdown:           kramdown
