@@ -21,6 +21,10 @@ google_analytics:   G-9HS0BJRSCT # Enter your Google Analytics 4 ID (G-XXXXXXXXX
 markdown:           kramdown
 paginate:           5
 paginate_path:      "/tech/page:num/"
+
+# Permalink structure for posts
+permalink:          /:categories/:year/:month/:day/:title:output_ext
+
 plugins:
   - jekyll-feed
   - jekyll-paginate

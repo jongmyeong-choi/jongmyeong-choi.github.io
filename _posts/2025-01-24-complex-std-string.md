@@ -5,7 +5,8 @@ subtitle: "std::string의 복잡한 내부 구조와 동작 방식"
 date: 2025-01-24 23:45:13 -0400
 background: '/img/posts/2025-01-24-01.jpeg'
 published: true
-category: tech
+categories: [tech]
+tags: [C++, string, 표준라이브러리, 템플릿]
 ---
 
 ### C++ 실행 파일에서 본 `std::string`의 복잡성
